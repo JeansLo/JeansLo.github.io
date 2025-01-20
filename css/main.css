@@ -1,0 +1,10 @@
+@keyframes a 
+{
+    0%{ content : '.'} 
+    50%{ content : '..' } 
+    100%{ content : '...' } 
+}
+span::after 
+{
+    animation : a .5s infinite ; 
+}
