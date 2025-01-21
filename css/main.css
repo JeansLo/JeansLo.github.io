@@ -23,5 +23,5 @@ body
 }
 span::after 
 {
-    animation : a .5s infinite ; 
+    animation : a infinite .5s ; 
 }
