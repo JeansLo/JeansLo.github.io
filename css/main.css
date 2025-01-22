@@ -29,3 +29,12 @@ body > span::after
     width : 100% ; 
     background : var(--header-bg) ; 
 }
+#header a img 
+{
+    height : 2rem ; 
+    width : 2rem ; 
+}
+#header a:has(img):focus 
+{
+    outline : 2px #ffd700 solid ; 
+}
