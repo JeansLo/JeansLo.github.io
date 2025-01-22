@@ -23,8 +23,16 @@ body
     align-items : center ; 
     font-family : main , main_ , sung , sung_ , kai , kai_ , sans-serif ; 
 }
-span::after 
+body > span::after 
 {
     content : '' ; 
     animation : a 1s infinite ; 
+}
+#header 
+{
+    position : fixed ; 
+    top : 0 ; 
+    height : 2.15rem ; 
+    width : 100% ; 
+    background : var(--header-bg) ; 
 }
