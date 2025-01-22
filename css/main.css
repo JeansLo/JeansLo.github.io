@@ -21,7 +21,7 @@ body
     display : flex ; 
     justify-content : center ; 
     align-items : center ; 
-    font-family : main , main_ , sans-serif ; 
+    font-family : main , main_kai , main_ , sans-serif ; 
 }
 span::after 
 {
