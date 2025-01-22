@@ -1,5 +1,7 @@
 :root 
 {
+  --select-colour : #ffd700 ; 
+  --select-bg : #000c ; 
   --header-bg : #000 ; 
   --focus-outline : #ffd700 ; 
 }
