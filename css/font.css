@@ -6,3 +6,7 @@
   font-family: "main_";
   src: url("https://rawcdn.githack.com/JeansLo/JeansLo.github.io/99f5e530f2096fc20238e0e979facddfcb7d5ca8/f/OCRAStd.otf") format("opentype") ; 
 }
+@font-face {
+  font-family: "main_kai";
+  src: url("") format("woff2") ; 
+}
