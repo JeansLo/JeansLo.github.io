@@ -1,4 +1,8 @@
 @font-face {
   font-family: "main";
+  src: url("https://rawcdn.githack.com/JeansLo/JeansLo.github.io/afbee351dc506682d23b6def2acd9cb49f28abd0/f/OCRAStd.woff2") format("woff2") ; 
+}
+@font-face {
+  font-family: "main_";
   src: url("https://rawcdn.githack.com/JeansLo/JeansLo.github.io/35d71fda7870f7a8a712af6b599adcb6cd8c96cf/f/OCRAStd.otf") format("opentype") ; 
 }
