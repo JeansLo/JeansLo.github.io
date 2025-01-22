@@ -36,5 +36,6 @@ body > span::after
 }
 #header a:has(img):focus 
 {
-    outline : 2px #ffd700 solid ; 
+    outline : 2px var(--focus-outline) solid ; 
+    border-radius : 2px ; 
 }
