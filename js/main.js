@@ -1,4 +1,4 @@
 $(()=>
 {
-    $( "#loading" ).hide( 0 ) ; 
+    $( "body > span" ).hide( 0 ) ; 
 });
