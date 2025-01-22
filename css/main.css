@@ -39,6 +39,11 @@ body > span::after
     height : 2rem ; 
     width : 2rem ; 
 }
+#header a:has(img) 
+{
+    width : 2rem ; 
+    height : 2rem ; 
+}
 #header a:has(img):focus 
 {
     outline : 2px var(--focus-outline) solid ; 
