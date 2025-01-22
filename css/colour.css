@@ -1,4 +1,5 @@
 :root 
 {
-  --header-bg : #f00 ; 
+  --header-bg : #000 ; 
+  --focus-outline : #ffd700 ; 
 }
