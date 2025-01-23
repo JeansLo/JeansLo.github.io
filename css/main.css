@@ -59,6 +59,12 @@ body > span::after
 {
     color : var(--header-link-visited) ; 
 }
+#header a:has(img) 
+{
+    width : 2rem ; 
+    height : 2rem ; 
+    position : relative ; 
+}
 #header a img 
 {
     height : 2rem ; 
@@ -67,16 +73,10 @@ body > span::after
     top : 0 ; 
     left : 0 ; 
 }
-#header a:has(img) 
-{
-    width : 2rem ; 
-    height : 2rem ; 
-    position : relative ; 
-}
-#header > svg 
+#header > svg , #header > svg path 
 {
     width : 2rem ; 
     height : 2rem ; 
     cursor : pointer ; 
-    fill : var(--header-menubarDropper-fill) ; 
+    stroke : var(--header-menubarDropper-stroke) ; 
 }
