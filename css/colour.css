@@ -7,6 +7,6 @@
   --header-link-hover : #000 ; 
   --header-link-focus : #000 ; 
   --header-link-visited : #000 ; 
-  --header-menubarDropper-fill : #fff ; 
+  --header-menubarDropper-stroke : #fff ; 
   --focus-outline : #ffd700 ; 
 }
