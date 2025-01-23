@@ -33,6 +33,9 @@ body > span::after
     height : 3rem ; 
     width : 100% ; 
     background : var(--header-bg) ; 
+    display : flex ; 
+    align-items : center ; 
+    justify-content : center ; 
 }
 #header a 
 {
