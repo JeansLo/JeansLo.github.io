@@ -34,6 +34,22 @@ body > span::after
     width : 100% ; 
     background : var(--header-bg) ; 
 }
+#header a 
+{
+    color : var(--header-link) ; 
+}
+#header a:hover 
+{
+    color : var(--header-link-hover) ; 
+}
+#header a:focus 
+{
+    color : var(--header-link-focus) ; 
+}
+#header a:visited 
+{
+    color : var(--header-link-visited) ; 
+}
 #header a img 
 {
     height : 2rem ; 
