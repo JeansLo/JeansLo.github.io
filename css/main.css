@@ -73,6 +73,11 @@ body > span::after
     top : 0 ; 
     left : 0 ; 
 }
+#header > svg 
+{
+    position : absolute ; 
+    left : .5rem ; 
+}
 #header > svg , #header > svg path 
 {
     width : 2rem ; 
