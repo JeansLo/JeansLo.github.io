@@ -39,6 +39,7 @@ body > span::after
     width : 100% ; 
     background : var(--header-bg) ; 
     display : flex ; 
+    flex-direction : row ; 
     align-items : center ; 
     justify-content : center ; 
 }
@@ -62,11 +63,15 @@ body > span::after
 {
     height : 2rem ; 
     width : 2rem ; 
+    position : absolute ; 
+    top : 0 ; 
+    left : 0 ; 
 }
 #header a:has(img) 
 {
-    width : 0 ; 
-    height : 0 ; 
+    width : 2rem ; 
+    height : 2rem ; 
+    position : relative ; 
 }
 #header > svg 
 {
