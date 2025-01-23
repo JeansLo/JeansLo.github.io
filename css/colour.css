@@ -1,8 +1,9 @@
 :root 
 {
-  --select-colour : #ffd700 ; 
+  --select : #ffd700 ; 
   --select-bg : #000c ; 
   --header-bg : #000 ; 
+  --header-link : #000 ; 
   --header-link-hover : #000 ; 
   --header-link-focus : #000 ; 
   --header-link-visited : #000 ; 
