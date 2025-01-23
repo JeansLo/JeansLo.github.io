@@ -4,6 +4,11 @@
     padding : 0 ; 
     box-sizing : border-box ; 
 }
+*:focus 
+{
+    outline : 2px var(--focus-outline) solid ; 
+    border-radius : 5px ; 
+}
 ::selection 
 {
     color : var(--select) ; 
@@ -62,11 +67,6 @@ body > span::after
 {
     width : 0 ; 
     height : 0 ; 
-}
-#header svg:focus 
-{
-    outline : 2px var(--focus-outline) solid ; 
-    border-radius : 2px ; 
 }
 #header > svg 
 {
