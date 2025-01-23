@@ -30,11 +30,9 @@ body > span::after
 {
     position : fixed ; 
     top : 0 ; 
-    height : fit-content ; 
+    height : 3rem ; 
     width : 100% ; 
     background : var(--header-bg) ; 
-    display : flex ; 
-    align-items : center ; 
 }
 #header a img 
 {
@@ -46,8 +44,14 @@ body > span::after
     width : 2rem ; 
     height : 2rem ; 
 }
-#header a:has(img):focus 
+#header svg:focus 
 {
     outline : 2px var(--focus-outline) solid ; 
     border-radius : 2px ; 
+}
+#header > svg 
+{
+    width : 2rem ; 
+    height : 2rem ; 
+    cursor : pointer ; 
 }
