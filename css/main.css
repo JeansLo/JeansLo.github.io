@@ -6,7 +6,7 @@
 }
 ::selection 
 {
-    color : var(--select-colour) ; 
+    color : var(--select) ; 
     background : var(--select-bg) ; 
 }
 html , body 
