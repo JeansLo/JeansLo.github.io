@@ -85,3 +85,7 @@ body > span::after
     cursor : pointer ; 
     stroke : var(--header-menubarDropper-stroke) ; 
 }
+#header > a:not(:first-child) 
+{
+    display : none ; 
+}
