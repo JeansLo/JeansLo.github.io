@@ -4,4 +4,9 @@
     {
         display : none ; 
     }
+    #header > a:not(:first-child) 
+    {
+        display : block ; 
+        color : var(--l-header-link) ; 
+    }
 }
