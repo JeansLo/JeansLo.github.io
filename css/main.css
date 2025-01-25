@@ -13,6 +13,7 @@
 {
     color : var(--select) ; 
     background : var(--select-bg) ; 
+    outline : var(--select-outline) 1px solid ; 
 }
 html , body 
 {
