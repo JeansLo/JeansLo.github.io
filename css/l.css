@@ -3,5 +3,6 @@
     #header > a:not(:first-child) 
     {
         display : block ; 
+        color : var(--l-header-a) ; 
     }
 }
