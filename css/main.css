@@ -47,6 +47,7 @@ body > span::after
 #header a 
 {
     color : var(--header-link) ; 
+    text-decoration : none ; 
 }
 #header a:hover 
 {
