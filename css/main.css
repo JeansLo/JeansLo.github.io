@@ -61,13 +61,13 @@ body > span::after
 {
     color : var(--header-link-visited) ; 
 }
-#header a:has(img) 
+#header > a 
 {
     width : 2rem ; 
     height : 2rem ; 
     position : relative ; 
 }
-#header a img 
+#header > a img 
 {
     height : 2rem ; 
     width : 2rem ; 
@@ -87,7 +87,7 @@ body > span::after
     cursor : pointer ; 
     stroke : var(--header-menubarDropper-stroke) ; 
 }
-#header > a:not(:first-child) 
+#header #dropDown 
 {
     display : none ; 
 }
