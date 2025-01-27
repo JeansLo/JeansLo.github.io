@@ -4,6 +4,6 @@ $(()=>
     $( "#header > svg" ).on( "click" , ()=>
         {
             console.log( "hi" ) ; 
-            $( "#header #dropDown" ).toggleClass( ".hide" ) ; 
+            $( "#header #dropDown" ).toggleClass( "hide" ) ; 
         } ) ; 
 });
