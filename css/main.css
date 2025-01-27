@@ -100,5 +100,5 @@ body > span::after
 }
 .hide 
 {
-    display : none ; 
+    display : none !important ; 
 }
