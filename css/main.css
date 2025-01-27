@@ -96,7 +96,6 @@ body > span::after
     top : 3rem ; 
     left : 0 ; 
     background : var(--header-dropdown-bg) ; 
-    color : var(--header-dropdown) ; 
     height : calc(100vh - 3rem) ; 
     width : 100% ; 
 }
